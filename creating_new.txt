@@ -1,0 +1,16 @@
+If you get this error: ""npm ERR! missing script: start"  when trying to run. 
+
+You might have a old global install of npm that's causing a problem. As of 12/19 npm does not support global installs.
+
+Uninstall the package using:
+npm uninstall -g create-react-app 
+
+Some osx/Linux users may need to go a bit further to remove the old npm. Do so with this command:
+rm -rf /usr/local/bin/create-react-app
+
+This is now the only supported method for generating a project:
+npx create-react-app my-app 
+
+With that done cd and start it:
+cd my-app
+npm start
