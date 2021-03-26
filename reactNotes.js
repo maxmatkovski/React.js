@@ -33,3 +33,11 @@ console.log(items);
   const clone = [...first];
   console.log(clone);
   console.log(first);
+
+  const first = {name: 'Max'};
+  const second = {job: 'Instructor'};
+
+  const combined = {...first,...second, location: 'America'};
+  console.log(combined);
+
+  const clone = {...first};
