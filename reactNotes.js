@@ -74,3 +74,8 @@ console.log(items);
       console.log(`SILVER METAL GOES TO ${silver}`)
       console.log(`NO METAL GOES TO ${everyoneElse}`)
   }
+
+// Destructuring Arrays
+    const scores = [32223,323232,324564,21453]
+
+    const [score1, socre2, score3, score4] = scores;
