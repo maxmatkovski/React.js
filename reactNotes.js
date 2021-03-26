@@ -21,3 +21,15 @@ console.log(items);
 
   // Saves constant in new constant 'st';
   const {street: st} = address;
+
+// Spread operator
+
+  const first = [1,2,3];
+  const second = [4,5,6];
+
+  const combined = first.concat(second);
+  const combined = [...first, 'a', ...second, 'b'];
+
+  const clone = [...first];
+  console.log(clone);
+  console.log(first);
