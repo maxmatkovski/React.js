@@ -41,3 +41,19 @@ console.log(items);
   console.log(combined);
 
   const clone = {...first};
+
+// Classes
+
+   class Person {
+       constructor(name){
+           this.name = name;
+
+       }
+
+      walk(){
+          console.log("Walk");
+      }
+   }
+
+   const person = new Person ('Max');
+   person.
