@@ -57,3 +57,20 @@ console.log(items);
 
    const person = new Person ('Max');
    person.
+   
+// Rest Params
+  function sum (){
+      return arguments.reduce((total, el)=> total + el);
+  }
+
+  sum(3,4,5,6,5,4,5,4,3)
+
+  function sum(...nums){
+      console.log(nums)
+  }
+
+  function raceResults (gold, silver, ...everyoneElse) {
+      console.log(`GOLD METAL GOES TO ${gold}`)
+      console.log(`SILVER METAL GOES TO ${silver}`)
+      console.log(`NO METAL GOES TO ${everyoneElse}`)
+  }
